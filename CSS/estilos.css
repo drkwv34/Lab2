@@ -1,0 +1,282 @@
+/*Fonts*/
+@font-face {
+  font-family: "MENU";
+  src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: "Titulo-2";
+  src: url(../fonts/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Romanseco";
+  src: url(../fonts/Romanesco-Regular.ttf);
+}
+/*Header*/
+header {
+  background-color: #a3a656;
+}
+#navegacion {
+  padding: 25.005px 0px 25.005px 70px;
+}
+header section {
+  display: inline-block;
+}
+header section ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+#navegacion ul a {
+  color: #000;
+  text-decoration: none;
+  font-family: MENU;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+#navegacion a:hover {
+  color: #ffff00;
+}
+#user a:hover {
+  color: #ffff00;
+}
+header section ul li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+#user {
+  line-height: 74px;
+  float: right;
+  margin: 0px 20px;
+}
+#user a {
+  color: #000;
+  text-decoration: none;
+  font-family: MENU;
+  font-size: 14px;
+  margin: 0;
+}
+#user img {
+  color: #000;
+  font-size: 2rem;
+  padding: 0px 3px;
+  vertical-align: middle;
+}
+#language {
+  line-height: 45px;
+  float: right;
+  margin: 0px 20px;
+}
+#language p {
+  display: inline-block;
+  font-family: MENU;
+  font-size: 14px;
+}
+#language img {
+  vertical-align: middle;
+  padding: 0px 5px;
+}
+/*Main*/
+#imagen-main {
+  height: 600px;
+  background-image: url("../img/main.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.texto-main {
+  margin-left: 100px;
+  margin-top: 150px;
+  width: 400px;
+  color: #000;
+  position: absolute;
+}
+.texto-main h1 {
+  font-family: Romanseco;
+  font-size: 96px;
+  width: 400px;
+  color: #000;
+}
+.texto-main p {
+  font-family: Titulo-2;
+  font-size: 32px;
+
+  width: 600px;
+  color: #000;
+}
+/*Menu reserva*/
+#menu-reserva {
+  background-color: #f2f6f6;
+  text-align: center;
+  font-family: MENU;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+#reserva {
+  padding: 22.23px;
+  border-radius: 15px;
+  border: none;
+  margin-right: 20px;
+}
+#codigo {
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+}
+/*Menu masajes*/
+#menu-masajes {
+  text-align: center;
+}
+#menu-masajes article {
+  text-align: center;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 67px;
+  margin-right: 67px;
+  margin-bottom: 80px;
+}
+#menu-masajes article h2 {
+  background-color: #a3a656;
+  color: #fff;
+  border-radius: 15px 15px 0px 0px;
+  font-family: Titulo-2;
+  font-size: 32px;
+  padding: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#menu-masajes article p {
+  text-align: left;
+  font-family: MENU;
+  font-size: 16px;
+}
+#menu-masajes article p.price {
+  display: inline;
+  float: left;
+  font-family: Titulo-2;
+  font-size: 32px;
+  margin: 0%;
+}
+#menu-masajes article input {
+  display: inline;
+  float: right;
+  font-family: Titulo-2;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #a3a656;
+  color: white;
+  border: none;
+  border-radius: 35px;
+  padding: 10px 30px;
+}
+#menu-masajes article input:hover {
+  background-color: #384001;
+}
+/*Menu membresias*/
+#menu-membresias {
+  background-color: #f2f6f6;
+  height: 770px;
+}
+#menu-membresias h1 {
+  text-align: center;
+  font-family: Titulo-2;
+  font-size: 32px;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+#menu-membresias article {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  text-align: center;
+}
+.badge {
+  background-color: #fff;
+  height: 233px;
+  width: 233px;
+  border-radius: 50%;
+  border: solid 22px #384001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+#menu-membresias article h2 {
+  font-family: Titulo-2;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+#menu-membresias article input {
+  text-align: center;
+  background-color: #a3a656;
+  color: #fff;
+  border: none;
+  border-radius: 35px;
+  font-family: Titulo-2;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 15px 40px;
+}
+#menu-membresias article input:hover {
+  background-color: #384001;
+}
+#menu-membresias article ul {
+  list-style-position: inside;
+  text-align: left;
+  justify-content: start;
+
+  font-family: MENU;
+  font-size: 16px;
+}
+.beneficios {
+  display: flex;
+  justify-content: center;
+}
+/*footer*/
+footer {
+  background-color: #384001;
+}
+#acercade {
+  padding: 38.355px 0px 38.35px 70px;
+}
+footer section {
+  display: inline-block;
+  margin: 0px;
+}
+footer section ul {
+  margin: 0px;
+}
+footer section ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 20px;
+
+  font-family: MENU;
+  color: #a3a656;
+  text-transform: uppercase;
+
+  vertical-align: middle;
+}
+footer section ul li a {
+  color: #a3a656;
+  text-decoration: none;
+  font-family: MENU;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+footer section ul li a:hover {
+  color: #ffff00;
+}
+
+#acercade ul {
+  padding: 0px;
+}
+#redes {
+  line-height: 96px;
+  float: right;
+}
+.menu-first {
+  padding-left: 0px;
+}
